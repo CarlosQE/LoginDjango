@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+
+{% block title %}Dashboard{% endblock %}
+
+{% block content %}
+<div class="dashboard-container">
+    <h1 class="fade-slide-in">Bienvenido, {{ request.user.username }} 👋</h1>
+    <p class="fade-slide-in delay">Has iniciado sesión exitosamente.</p>
+</div>
+{% endblock %}
